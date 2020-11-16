@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lifte"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#F13625"
+        android:text="ĐĂNG KÝ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:gravity="center"
+        android:id="@+id/edittk"
+        android:layout_width="377dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bogoc"
+        android:hint="Tên Đăng Nhập "/>
+    <EditText
+        android:gravity="center"
+        android:hint="Mật khẩu"
+        android:id="@+id/editmk"
+        android:layout_width="377dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bogoc" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="@drawable/bogoc"
+            android:layout_marginRight="20dp"
+            android:text="HỦY"
+            android:id="@+id/btnhuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:background="@drawable/bogoc"
+            android:text="Đồng ý"
+            android:id="@+id/btndongy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
