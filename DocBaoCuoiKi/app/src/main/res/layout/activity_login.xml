@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login.Login">
+    <View
+    android:background="@drawable/splashscreen"
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="165dp" />
+
+    <LinearLayout
+        android:background="#ECECEC"
+        android:layout_width="match_parent"
+        android:layout_height="571dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="162dp"
+        android:layout_marginBottom="-2dp"
+        android:orientation="vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingBottom="20dp">
+
+        <EditText
+            android:id="@+id/edEmailDN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_perm_identity_white_24dp"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="email"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:textColorHint="@color/purple_700" />
+
+        <EditText
+            android:id="@+id/edPasswordDN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_lock_outline_white_24dp"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:hint="matkhau"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/purple_700" />
+
+        <Button
+            android:id="@+id/btnDangNhap133"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/radius_button"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/black"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:text="Đăng Nhập"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="hoac"
+                android:textColor="@color/purple_700" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/white" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnDangNhapFacebook133"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/black"
+            android:drawableLeft="@drawable/icon_facebook"
+            android:paddingLeft="10dp"
+            android:text="Đăng Nhập Bằng facebook"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnDangNhapGoogle133"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:background="#DF0029"
+            android:drawableLeft="@drawable/icon_google"
+            android:drawablePadding="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Đăng Nhập Bằng google"
+            android:textAllCaps="false"
+            android:textColor="@color/purple_200" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtQuenMatKhau133"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Quên Mật Khẩu"
+                android:textAlignment="center"
+                android:textColor="@color/purple_700" />
+
+            <TextView
+                android:id="@+id/txtDangKyMoi133"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đăng Ký Mới"
+                android:textAlignment="center"
+                android:textColor="@color/purple_700" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

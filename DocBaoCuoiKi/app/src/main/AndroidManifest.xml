@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.docbaocuoiki">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/unnamed"
+        android:label="Báo Mới"
+        android:roundIcon="@drawable/unnamed"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DocBaoCuoiKi">
+        <activity android:name=".fragment_profile.ThongBao" />
+        <activity android:name=".fragment_profile.DangTheoDoi" />
+        <activity android:name=".fragment_profile.DaDanhDau" />
+        <activity android:name=".fragment_profile.DocOffline" />
+        <activity android:name=".Login.Login"/>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SplashScreen.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DetailReadNew"
+            android:label="@string/DetailReadNew"/>
+        <activity android:name=".fragment_video.videoitem"></activity>
+        <activity android:name=".fragment_video.videoitem2"></activity>
+        <activity android:name=".fragment_video.videoitem3"></activity>
+        <activity android:name=".fragment_video.videoitem4"></activity>
+        <activity android:name=".DetailLink"></activity>
+    </application>
+
+</manifest>

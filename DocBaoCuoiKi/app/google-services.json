@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1054945179723",
+    "project_id": "baomoi-c0467",
+    "storage_bucket": "baomoi-c0467.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054945179723:android:675db4eb9c89b5052575ce",
+        "android_client_info": {
+          "package_name": "com.example.docbaocuoiki"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054945179723-ne5t2b9vi4olquj5fdisgag0ttnq6rks.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.docbaocuoiki",
+            "certificate_hash": "4954bc6fcb9cf7bb27b6b4ab9b9874d1887c030b"
+          }
+        },
+        {
+          "client_id": "1054945179723-4beletuccbv3jaiq0g49gr50k83vekcs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKij9xglopbA-kQGl49tEOdUjZSfy_618"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054945179723-4beletuccbv3jaiq0g49gr50k83vekcs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

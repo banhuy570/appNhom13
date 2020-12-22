@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/background"
+        android:layout_height="50dp"
+        >
+
+        <ImageButton
+            android:id="@+id/button2"
+            android:layout_marginTop="5dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_action_menu"
+            android:text="Button" />
+        <EditText
+            android:layout_width="300dp"
+            android:drawablePadding="5dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/radius"
+            android:drawableLeft="@drawable/ic_action_search"
+            android:hint="Tìm kiếm"
+            android:paddingLeft="5dp"
+            android:textColorHint="#2D3E52"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtTenTin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Nội dung tin"
+        android:textColor="#000"
+
+        />
+    <ImageView
+        android:id="@+id/imgAnhOff"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/anh2"
+        android:layout_below="@id/txtTenTin"/>
+    <TextView
+        android:id="@+id/txtNguon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/imgAnhOff"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="Tổ quốc"
+        />
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@+id/txtNguon"
+        android:layout_below="@+id/imgAnhOff"
+        android:textSize="12dp"
+        android:layout_marginLeft="50dp"
+        android:text=" 3 tiếng trước"
+        />
+
+
+</RelativeLayout>
